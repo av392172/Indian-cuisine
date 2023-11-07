@@ -7,7 +7,9 @@ function Footer() {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           {/* Link */}
-          <h4 className="text-2xl font-bold text-red-500 mb-10">Recipe</h4>
+          <h4 className="text-2xl font-bold text-red-500 mb-10">
+            Indian Cuisine
+          </h4>
           {/* <Link */}
           <div className="flex flex-wrap gap-10 flex-1 justify-between">
             {FOOTER_LINKS.map((columns) => (
